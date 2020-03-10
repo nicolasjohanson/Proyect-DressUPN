@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    	<meta charset="UTF-8">
+	    <title>Dress UP Nova</title>
+	    <meta name="viewport" content="width=dievice-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <link rel="stylesheet" href="estilos.css">
+        <script src="validar.js"></script>
+    </head>
+
+    <body>
+	    <form action="registrar.php" method="post" class="form-register" onsubmit="return validar();">
+		    <h2 class="form-titulo">Inicia sesión con nosotros en</h2>
+		    <center><h2>Drez UP Nova</h2></center>
+		    <div class="contenedor-inputs"></div>
+		    <input type="text" id="nombre" name="nombre" placeholder="Nombre" class="input-48" required>
+		    <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" class="input-48" required>
+		    <input type="email" id="correo" name="correo" placeholder="Correo" class="input-100" required>
+		    <input type="text" id="usuario" name="usuario" placeholder="Usuario" class="input-48" required>
+		    <input type="password" id="clave" name="clave"  placeholder="&#128273; Contraseña" class="input-48" required>
+		    <input type="text" id="telefono" name="telefono" placeholder="Telefono" class="input-100" required>
+		    <input type="submit" value="Registrar" class="btn-enviar">
+		    <p class="form__link">¿Ya tienes una cuenta con nosotros? <a href="#"> Ingresa aqui</a></p>
+		    </div>
+	    </form>    
+    </body>
+</html>
